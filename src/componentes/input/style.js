@@ -22,6 +22,7 @@ export const InputContainer = styled.div`
         font-size: 17px;
         font-weight: 600;
         margin-top: 26px;
+        margin-bottom: 26px;
         display: flex;
         align-items: center;
         justify-content: center;

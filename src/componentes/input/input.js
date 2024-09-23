@@ -31,12 +31,13 @@ export default function Input() {
 
     return (
         <InputContainer>
+
+            <p className="total">Total de Usuarios: {cont}</p>
+
             <label>Escreva aqui o seu nome</label>
             <input value={usuario} onChange={(event) =>{
                 setUsuario(event.target.value);
             }}/>
-
-            <p className="total">Total de Usuarios: {cont}</p>
 
             <Button addUser={addUser}/>
 
